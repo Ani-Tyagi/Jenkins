@@ -1,0 +1,6 @@
+---
+  - name: jenkins1
+    hosts: all
+    tasks:
+    - name: install ftp pack..
+      yum: name=vsftpd state=latest
