@@ -6,7 +6,7 @@ pipeline {
         stage('Checkout Git') {
             steps {
                 git branch: 'main' ,
-                   url: 'https://github.com/Ani-Jenkins/Jenkins-Ansible.git'
+                   url: 'https://github.com/Ani-Tyagi/Jenkins.git'
             }
         }
         stage('Verify Ansible Installation') {
